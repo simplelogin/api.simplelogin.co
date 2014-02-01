@@ -168,7 +168,7 @@ exports.me = function(req, res) {
     };
   } else {
     response = {
-      status: 530,
+      status: 403,
       message: 'User not logged'
     };
   }
