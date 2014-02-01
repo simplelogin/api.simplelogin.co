@@ -1,0 +1,39 @@
+{
+  "name": "simplelogin-api",
+  "description": "Open REST API for simplelogin.co",
+  "version": "0.0.2",
+  "private": false,
+  "author": {
+    "name": "Mario Colque",
+    "email": "colquemario@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplelogin/api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simplelogin/api/issues"
+  },
+  "homepage": "https://github.com/simplelogin/api",
+  "keywords": [
+    "api",
+    "passwords",
+    "vault",
+    "manager",
+    "security",
+    "simplelogin",
+    "open"
+  ],
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "dependencies": {
+    "express": "~3.4.8",
+    "mongoose": "~3.8.4",
+    "passport": "~0.1.18",
+    "passport-http-bearer": "~1.0.1",
+    "crypto": "0.0.3",
+    "bcrypt": "~0.7.7"
+  }
+}
